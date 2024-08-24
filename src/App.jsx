@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react'
 import './css/hdpwURSFdeQx.css'
-import './js/fFQtoz9nO7FV.js'
-import './js/Ru91PHFAYqFq.js'
-import './js/KSPrHpE0UCiQ.js'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import Section1 from './components/sections/Section1.jsx'
