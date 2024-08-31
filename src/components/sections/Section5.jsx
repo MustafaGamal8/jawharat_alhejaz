@@ -8,9 +8,9 @@ export default function Section5() {
       <div className="atbs-block atbs-block--fullwidth atbs-featured-module-5">
         <div className="container-fullwidth">
           <div className="block-heading block-heading_style-1 block-heading--center">
-            <h4 className="block-heading__title">{t('Our Achievement')}</h4>
+            <h4 className="block-heading__title">{t('Our company.. an ongoing success story!')}</h4>
             <div className="block-heading__subtitle">
-              {t('Discover our key milestones and accomplishments.')}
+              {t('We have achieved great accomplishments during the previous years and expanded into new markets, which confirmed our leading position in the industry.')}
             </div>
           </div>
         </div>
@@ -31,12 +31,8 @@ export default function Section5() {
             <div className="section-sub__inner flex-box">
               <div className="column-left">
                 <div className="heading-info">
-                  <h4 className="heading__name">{t('Lets find the best solution together')}</h4>
-                  <div className="paragraph-text">
-                    <p>
-                      {t('Personalize your kitchen')}
-                    </p>
-                  </div>
+                  <h4 className="heading__name">{t('The Jewel of Hijaz because quality starts here')}</h4>
+                
                 </div>
               </div>
               <div className="column-right flex-box flex-box-2i">

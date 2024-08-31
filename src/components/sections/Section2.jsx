@@ -12,7 +12,7 @@ export default function Section2() {
               <div className="block-heading block-heading_style-1">
                 <h4 className="block-heading__title">{t('About Us')}</h4>
                 <div className="block-heading__subtitle">
-                  {t('We are a leading company providing exceptional kitchen designs and accessories.')}
+                  {t('Since our establishment in 2011, we at Jawharat Al-Hijaz have been striving to transform ordinary spaces into artistic masterpieces that captivate hearts. With more than ten years of experience, we have become pioneers in the beauty and luxury industry in Saudi Arabia and Egypt. We rely on a team of skilled craftsmen and creative designers to provide modern designs for all tastes while adhering to the highest standards of quality and precision.')}
                 </div>
               </div>
               <div className="img-field" data-height={250}>
@@ -23,9 +23,6 @@ export default function Section2() {
               <div className="column-left">
                 <div className="img-field m-b-30" data-height={390}>
                   <img src="images/k3.jpg" alt="Company Image 1" />
-                </div>
-                <div className="paragraph-text">
-                  <p>{t('We offer top-quality kitchen solutions tailored to your needs, ensuring both style and functionality. Our team is dedicated to providing the best service and products to make your kitchen exceptional.')}</p>
                 </div>
               </div>
               <div className="column-right">

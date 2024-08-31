@@ -3,16 +3,16 @@ import React from 'react';
 
 const testimonials = [
   {
-    name: 'Hazem elamrety',
-    text: ` احسن شركة مطابخ حقيقي واكتر ناس ذوق و ممحترمة ومعاملة فوق الوصف  شكرا ليكم ولأمانتكم وفي نجاح لنجاح دايما `
+    name: 'أحمد .م',
+    text: `One of the best companies I have dealt with. Excellent service and speed of implementation.`
   },
   {
-    name: 'Mina ghaly',
-    text: ` بجد اكتر شركة محترمة وكل الفريق متعاون جدا والخامات اعلي حاجة وعندهم صبر وطولة بال انهم يسمعوك ويفهموا دماغك  شكرا جدا ليكم `
+    name: 'فاطمة .ع',
+    text: `The products are really high quality and reasonable prices. The staff is very professional and cooperative.`
   },
   {
-    name: 'Ehab reda',
-    text: ` شركة محترمة وخامات محترمة وكل العاملين فيها ناس ذوق فعلا واستلمت من اسبوع ماشاء الله المطبخ جميل جدا  بجد تسلم ايديكم `
+    name: 'خالد .س',
+    text: `My experience with Jawharat Al Hijaz was wonderful from start to finish. Thank you.`
   },
 ];
 
@@ -25,7 +25,7 @@ export default function Section7() {
           <div className="block-heading block-heading_style-1 block-heading--center">
             <h4 className="block-heading__title">{t('What People Say')}</h4>
             <div className="block-heading__subtitle">
-              {t('See what our clients have to say about our work.')}
+              {t('At Jawharat Al Hijaz, our customers’ satisfaction is our top priority. Here is some of what our customers say about us:')}
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Section7() {
                 <div key={index} className="list-item">
                   <div className="testimonial-card" style={{textAlign: 'center'}}>
                     <div className="paragraph-text">
-                      <p>{testimonial.text}</p>
+                      <p>{t(testimonial.text)}</p>
                     </div>
                     <div className="testimonial-author">
                       <div className="testimonial__text">

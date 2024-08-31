@@ -28,6 +28,7 @@ const posts = [
   },
 ];
 
+
 export default function Section8() {
   return (
     <>
@@ -36,6 +37,7 @@ export default function Section8() {
         <div className="container-fullwidth">
           <div className="block-heading block-heading_style-1 block-heading--center">
             <h4 className="block-heading__title">{t('Kitchens')}</h4>
+            <div className="block-heading__subtitle">{t('Practical and modern designs that make your cooking easier and more enjoyable.')}</div>
           </div>
         </div>
         <div className="container-fullwidth">

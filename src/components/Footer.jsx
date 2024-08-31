@@ -7,20 +7,20 @@ export default function Footer() {
       <footer className="site-footer footer-1" style={{ backgroundImage: 'url("images/npZQYFZZwBxl.jpg")' }}>
         <div className="container-fullwidth">
           <div className="site-footer__section text-center">
-            <div className="site-logo">
-              <a href="./index.html">
-                <img src="images/R7UusWxkd2Wa.png" alt="logo" width={238} />
-              </a>
-            </div>
             <div className="footer-text text-center">
+              <h1>{t('Why are we the best choice?')}</h1>
               
-            {t('Kitchen World is one of the largest kitchen companies in Egypt. Our distinction comes as a natural result of the integration of our services, as we provide all kitchen design services in addition to dressing room services in all their forms.')}
           <br />
-              <a href="#!">معرفه المزيد</a>
+              <p>{t('Over ten years of experience in the beauty industry')}</p>
+              <p>{t('A long track record of achievements in Saudi Arabia and Egypt')}</p>
+              <p>{t('A team of skilled craftsmen and creative designers.')}</p>
+              <p>{t('Modern designs to suit all tastes')}</p>
+              <p>{t('Commitment to quality and accuracy in implementation')}</p>
+            
             </div>
           </div>
           <div className="site-footer__section">
-            <div className="section-row flex-box  flex-box-4i flex-space-30">
+            {/* <div className="section-row flex-box  flex-box-4i flex-space-30">
               <div className="section-column">
                 <h4 className="heading-footer">HEAD OFFICE</h4>
                 <ul className="list-unstyled list-space-sm">
@@ -113,7 +113,7 @@ export default function Footer() {
                   </ul>
                 </nav>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="site-footer__section" style={{display:"flex", justifyContent:"center", alignItems:"center",gap:"10px"}}>
             <div className="copy-right text-center">{t('Website Created By')} <a href="https://www.facebook.com/guessiteg">Guessit</a> </div>

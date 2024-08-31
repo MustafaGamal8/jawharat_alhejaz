@@ -8,9 +8,9 @@ export default function Section4() {
       <div className="atbs-block atbs-block--fullwidth atbs-featured-module-4">
         <div className="container-fullwidth">
           <div className="block-heading block-heading_style-1 block-heading--center">
-            <h4 className="block-heading__title">{t('Our Works')}</h4>
+            <h4 className="block-heading__title">{t('Record Of Achievements')}</h4>
             <div className="block-heading__subtitle">
-              {t('Explore our diverse portfolio showcasing our best projects.')}
+              {t('Over the years, we have executed distinguished projects in various parts of Saudi Arabia and Egypt. Whether you are looking for a luxurious kitchen design or modern room furnishing, we are here to provide you with the best solutions that suit your needs and exceed your expectations.')}
             </div>
           </div>
         </div>

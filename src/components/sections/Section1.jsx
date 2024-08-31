@@ -11,7 +11,7 @@ export default function Section1() {
             <div className="intro-heading-text">
               <div className="intro-heading__subtitle">{t('Founder of Jawharat Al-Hejaz Trading Est')}</div>
               <h3 className="intro-heading__title">
-                {t('Welcome to')} <span className="text-animation">{t('Founder of Jawharat Al-Hejaz Trading Est')}</span>
+                {t('Welcome to')} <span className="text-animation">{t('Welcome to the world of creativity and luxury!')}</span>
               </h3>
             </div>
           </div>
@@ -20,19 +20,19 @@ export default function Section1() {
               <div className="vision-text">
                 <span className="vision-label">{t('Kitchens')}</span>
                 <h4 className="vision__heading">
-                  {t('Leading kitchen design and accessories, offering a range of styles and materials.')}
+                  {t('Kitchen designs tailored to your practical needs and add a touch of luxury to your home.')}
                 </h4>
               </div>
               <div className="vision-text">
                 <span className="vision-label">{t('Appliances and Accessories')}</span>
                 <h4 className="vision__heading">
-                  {t('Innovative solutions for daily comfort and efficiency.')}
+                  {t('Innovations for an easier and more comfortable life')}
                 </h4>
               </div>
               <div className="vision-text">
                 <span className="vision-label">{t('Dressing')}</span>
                 <h4 className="vision__heading">
-                  {t('Custom dressing rooms for a personalized touch.')}
+                  {t('Dressing room designs tailored to your needs and add a touch of luxury to your home.')}
                 </h4>
               </div>
             </div>

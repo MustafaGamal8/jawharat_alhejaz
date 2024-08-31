@@ -21,7 +21,7 @@ export default function Section3() {
           <div className="block-heading block-heading_style-1 block-heading--center">
             <h4 className="block-heading__title">{t('Dressing Rooms')}</h4>
             <div className="block-heading__subtitle">
-              {t('Discover our range of top-notch services designed to meet your needs.')}
+              {t('The dressing room has all the practical and elegant designs you need.')}
             </div>
           </div>
         </div>
