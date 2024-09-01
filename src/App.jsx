@@ -19,24 +19,28 @@ import { useTranslation } from 'react-i18next'
 
 
 export default function App() {
-  const [IsMenuOpen, setIsMenuOpen] = React.useState(false)
+  const [IsMenuOpen, setIsMenuOpen] = React.useState(false);
   const { i18n } = useTranslation();
-
-
+  
   useEffect(() => {
-    const currentLanguage = localStorage.getItem('language')
-
-    if (currentLanguage === 'en') {
-      i18n.changeLanguage('en')
-      document.body.setAttribute('dir', 'ltr')
-      localStorage.setItem('language', 'en')
-    } else {      
-      i18n.changeLanguage('ar')
-      document.body.setAttribute('dir', 'rtl')
-      localStorage.setItem('language', 'ar')
+    // Check if the URL contains 'ar' or 'en', and set 'ar' as default
+    const urlLanguage = window.location.pathname.includes('/ar')
+      ? 'ar'
+      : window.location.pathname.includes('/en')
+      ? 'en'
+      : 'ar'; // Default to 'ar' if neither is found
+  
+    if (urlLanguage === 'en') {
+      i18n.changeLanguage('en');
+      document.body.setAttribute('dir', 'ltr');
+      localStorage.setItem('language', 'en');
+    } else {
+      i18n.changeLanguage('ar');
+      document.body.setAttribute('dir', 'rtl');
+      localStorage.setItem('language', 'ar');
     }
-  },[])
-
+  }, []);
+  
   
   return (
     <div>

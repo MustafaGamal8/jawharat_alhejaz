@@ -397,12 +397,12 @@ ul.navigation--main {
 }
 
 @media (min-width: 992px) {
-    .site-wrapper:dir(ltr)  {
+    /* .site-wrapper:dir(ltr)  {
         padding-left: 100px;
     }
     .site-wrapper:dir(rtl)  {
         padding-right: 100px;
-    }
+    } */
     .offcanvas-menu-toggle {
         font-size: 25px;
         color: var(--color-primary) !important;

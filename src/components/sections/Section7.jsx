@@ -14,6 +14,10 @@ const testimonials = [
     name: 'خالد .س',
     text: `My experience with Jawharat Al Hijaz was wonderful from start to finish. Thank you.`
   },
+  {
+    name: 'ليلى .ك',
+    text: `I am very satisfied with the service. The team was very helpful and the process was smooth and quick.`
+  }  
 ];
 
 export default function Section7() {
@@ -31,10 +35,10 @@ export default function Section7() {
         </div>
         <div className="container-fullwidth">
           <div className="atbs-block__inner">
-            <div className="testimonial-list flex-box flex-box-3i">
+            <div className="testimonial-list flex-box flex-box-3i"  style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
               {testimonials.map((testimonial, index) => (
-                <div key={index} className="list-item">
-                  <div className="testimonial-card" style={{textAlign: 'center'}}>
+                <div key={index} className="list-item" style={{width:"600px",height:"200px"}}>
+                  <div className="testimonial-card" style={{textAlign: 'center',width:"100%",height:"100%"}}>
                     <div className="paragraph-text">
                       <p>{t(testimonial.text)}</p>
                     </div>

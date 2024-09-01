@@ -10,8 +10,8 @@ export default function Section1() {
           <div className="section-main">
             <div className="intro-heading-text">
               <div className="intro-heading__subtitle">{t('Founder of Jawharat Al-Hejaz Trading Est')}</div>
-              <h3 className="intro-heading__title">
-                {t('Welcome to')} <span className="text-animation">{t('Welcome to the world of creativity and luxury!')}</span>
+              <h3 className="intro-heading__title" >
+                <span className="text-animation" style={{color:"white"}}>{t('Welcome to the world of creativity and luxury!')}</span>
               </h3>
             </div>
           </div>

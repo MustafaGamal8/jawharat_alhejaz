@@ -116,9 +116,9 @@ export default function Footer() {
             </div> */}
           </div>
           <div className="site-footer__section" style={{display:"flex", justifyContent:"center", alignItems:"center",gap:"10px"}}>
-            <div className="copy-right text-center">{t('Website Created By')} <a href="https://www.facebook.com/guessiteg">Guessit</a> </div>
-            <p style={{color:"white"}}>|</p>
-            <div className="copy-right text-center">Ⓒ {new Date().getFullYear()} - All Rights Are Reserved</div>
+            <div className="copy-right text-center">{t('By')} <a href="https://www.facebook.com/guessiteg">Guessit</a> </div>
+            <div className="copy-right text-center">|</div>
+            <div className="copy-right text-center">{t('All Rights Are Reserved')} - Ⓒ {new Date().getFullYear()}  </div>
           </div>
         </div>
       </footer>

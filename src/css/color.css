@@ -4,16 +4,16 @@
 *
 *************************/
 :root {
-    --color-primary:                #ad9271;
-    --color-secondary:              #17161A;
+    --color-primary:                #b2811f;
+    --color-secondary:              #100c04;
     --color-front:                  #A4A3A6;
-    --background-primary:           #191919;
-    --background-secondary:         #212121;
-    --color-title:                  #222222;
+    --background-primary:           #100c04;
+    --background-secondary:         #100c04;
+    --color-title:                  #100c04;
     --color-excerpt:                rgba(34,34,34,0.4);
     --color-meta:                   rgba(34,34,34,0.7);
     --color-border:                 rgba(0,0,0,0.1);
-    --color-button:                 #222222;
+    --color-button:                 #100c04;
 
     --color-white-contrast-100:     #fff;
     --color-white-contrast-90:      rgba(255,255,255,0.9);
