@@ -8725,7 +8725,7 @@ body.search-results {
 
 .mobile-header {
     position: relative;
-    height: 50px;
+    height: 60px;
     background: var(--background-primary);
     -webkit-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.03), 0 1px 0 0 rgba(0, 0, 0, 0.04), 0 -1px 0 0 rgba(0, 0, 0, 0.04);
     box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.03), 0 1px 0 0 rgba(0, 0, 0, 0.04), 0 -1px 0 0 rgba(0, 0, 0, 0.04);
@@ -8779,7 +8779,7 @@ body.search-results {
 }
 
 .header-logo--mobile img {
-    max-height: 50px;
+    max-height: 65px;
     padding: 10px 0;
 }
 
