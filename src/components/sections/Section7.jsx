@@ -37,7 +37,7 @@ export default function Section7() {
           <div className="atbs-block__inner">
             <div className="testimonial-list flex-box flex-box-3i"  style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
               {testimonials.map((testimonial, index) => (
-                <div key={index} className="list-item" style={{width:"600px",height:"200px"}}>
+                <div key={index} className="list-item" style={{width:"600px",minHeight:"200px"}}>
                   <div className="testimonial-card" style={{textAlign: 'center',width:"100%",height:"100%"}}>
                     <div className="paragraph-text">
                       <p>{t(testimonial.text)}</p>
