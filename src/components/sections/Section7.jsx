@@ -1,22 +1,33 @@
 import { t } from 'i18next';
 import React from 'react';
-
 const testimonials = [
   {
     name: 'أحمد .م',
-    text: `One of the best companies I have dealt with. Excellent service and speed of implementation.`
+    text: [
+      "One of the best companies I have dealt with.",
+      "Excellent service and speed of implementation."
+    ]
   },
   {
     name: 'فاطمة .ع',
-    text: `The products are really high quality and reasonable prices. The staff is very professional and cooperative.`
+    text : [
+      "The products are really high quality and reasonable prices.",
+      "The staff is very professional and cooperative."
+    ]
   },
   {
     name: 'خالد .س',
-    text: `My experience with Jawharat Al Hijaz was wonderful from start to finish. Thank you.`
+    text : [
+      "My experience with Jawharat Al Hijaz was wonderful from start to finish.",
+      "Thank you."
+    ]
   },
   {
     name: 'ليلى .ك',
-    text: `I am very satisfied with the service. The team was very helpful and the process was smooth and quick.`
+    text : [
+      "I am very satisfied with the service.",
+      "The team was very helpful and the process was smooth and quick."
+    ]
   }  
 ];
 
@@ -27,7 +38,7 @@ export default function Section7() {
       <div className="atbs-block atbs-block--fullwidth atbs-featured-module-7">
         <div className="container-fullwidth">
           <div className="block-heading block-heading_style-1 block-heading--center">
-            <h4 className="block-heading__title">{t('What People Say')}</h4>
+            <h4 className="block-heading__title">{t('Customer Reviews')}</h4>
             <div className="block-heading__subtitle">
               {t('At Jawharat Al Hijaz, our customers’ satisfaction is our top priority. Here is some of what our customers say about us:')}
             </div>
@@ -40,7 +51,14 @@ export default function Section7() {
                 <div key={index} className="list-item" style={{width:"600px",minHeight:"200px"}}>
                   <div className="testimonial-card" style={{textAlign: 'center',width:"100%",height:"100%"}}>
                     <div className="paragraph-text">
-                      <p>{t(testimonial.text)}</p>
+                      {/* put br if found . in teh text */}
+                      <p >{testimonial.text.map((txt)=> (
+                        <>
+                        
+                        {t(txt) }
+                        <br />
+                        </>
+                      ) )}</p>
                     </div>
                     <div className="testimonial-author">
                       <div className="testimonial__text">

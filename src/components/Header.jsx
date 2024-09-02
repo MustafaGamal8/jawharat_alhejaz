@@ -24,7 +24,7 @@ export default function Header({ setIsMenuOpen }) {
       <header className="site-header" >
         {/* Mobile header */}
         <div id="atbs-mobile-header" className="mobile-header " >
-          <div className="mobile-header__inner mobile-header__inner--flex"  >
+        <div className="mobile-header__inner mobile-header__inner--flex"  >
             <div className="header-branding header-branding--mobile mobile-header__section text-left">
               <div className="header-logo header-logo--mobile flexbox__item text-left">
                 <a href="#!">
@@ -33,7 +33,7 @@ export default function Header({ setIsMenuOpen }) {
               </div>
             </div>
             <div className="mobile-header__section text-right">
-              <h1 onClick={handelChangeLanguage} style={{ cursor: 'pointer',display:"flex",alignItems:"center" }} className="mobile-header-btn">
+              <h1 onClick={handelChangeLanguage} style={{ cursor: 'pointer',display:"flex",alignItems:"center" ,margin:"7px"}} className="mobile-header-btn">
                 {
                   i18n.language == 'en' ? "Ar": "En"
                 }
