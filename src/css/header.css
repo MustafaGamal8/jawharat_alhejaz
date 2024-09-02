@@ -5,14 +5,7 @@
 *************************/
 
 
-@media (min-width: 768px) {
-  .site-header:dir(ltr) {
-     padding-left: 10.26067665%;
-  }
-  .site-header:dir(rtl) {
-     padding-right: 10.26067665%;
-  }
-} 
+
 .site-header{
   height: 85px;
   overflow: hidden;

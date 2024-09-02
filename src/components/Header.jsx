@@ -21,10 +21,10 @@ export default function Header({ setIsMenuOpen }) {
   return (
     <>
       {/* Site header */}
-      <header className="site-header ">
+      <header className="site-header" >
         {/* Mobile header */}
-        <div id="atbs-mobile-header" className="mobile-header ">
-          <div className="mobile-header__inner mobile-header__inner--flex">
+        <div id="atbs-mobile-header" className="mobile-header " >
+          <div className="mobile-header__inner mobile-header__inner--flex"  >
             <div className="header-branding header-branding--mobile mobile-header__section text-left">
               <div className="header-logo header-logo--mobile flexbox__item text-left">
                 <a href="#!">

@@ -8726,6 +8726,7 @@ body.search-results {
 .mobile-header {
     position: relative;
     height: 60px;
+  
     background: var(--background-primary);
     -webkit-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.03), 0 1px 0 0 rgba(0, 0, 0, 0.04), 0 -1px 0 0 rgba(0, 0, 0, 0.04);
     box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.03), 0 1px 0 0 rgba(0, 0, 0, 0.04), 0 -1px 0 0 rgba(0, 0, 0, 0.04);
@@ -8734,19 +8735,13 @@ body.search-results {
 @media (min-width: 768px) {
     .mobile-header {
         height: 60px;
+        padding: 0 8.2% ;
     }
 }
 
-.mobile-header__inner {
-    padding: 0 15px;
-}
-
-.container .mobile-header__inner {
-    padding: 0;
-}
+  
 
 .mobile-header__inner--flex {
-  padding: 0;
     display: -webkit-box;
     display: -moz-box;
     display: box;
