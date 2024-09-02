@@ -24,9 +24,9 @@ export default function Section1() {
                 </h4>
               </div>
               <div className="vision-text">
-                <span className="vision-label">{t('Appliances and Accessories')}</span>
+                <span className="vision-label">{t('A team of craftsmen')}</span>
                 <h4 className="vision__heading">
-                  {t('Innovations for an easier and more comfortable life')}
+                  {t('Modern designs for all tastes, while adhering to the highest standards of quality and precision.')}
                 </h4>
               </div>
               <div className="vision-text">
