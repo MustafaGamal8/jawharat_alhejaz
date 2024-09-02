@@ -5,6 +5,8 @@
 *************************/
 
 .site-header{
+  height: 85px;
+  overflow: hidden;
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: var(--background-primary);
@@ -157,7 +159,13 @@ ul.navigation--main {
 }
 /*header mobile*/
 .header-logo--mobile img{
-    padding: 15px 0;
+  max-height: 80px;
+}
+
+@media (min-width: 768px) {
+    .header-logo--mobile img{
+        max-height: 80;
+    }
 }
 /*off canvas*/
 .atbs-offcanvas {

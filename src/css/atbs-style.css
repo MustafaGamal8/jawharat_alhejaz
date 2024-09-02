@@ -8746,6 +8746,7 @@ body.search-results {
 }
 
 .mobile-header__inner--flex {
+  padding: 0;
     display: -webkit-box;
     display: -moz-box;
     display: box;

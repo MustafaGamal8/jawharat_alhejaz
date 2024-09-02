@@ -21,7 +21,7 @@ export default function Header({ setIsMenuOpen }) {
   return (
     <>
       {/* Site header */}
-      <header className="site-header">
+      <header className="site-header padding-left-container">
         {/* Mobile header */}
         <div id="atbs-mobile-header" className="mobile-header ">
           <div className="mobile-header__inner mobile-header__inner--flex">
