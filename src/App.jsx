@@ -1,18 +1,15 @@
 import React, { useEffect } from 'react'
-import './css/hdpwURSFdeQx.css'
-import Header from './components/Header.jsx'
-import Footer from './components/Footer.jsx'
-import Section1 from './components/sections/Section1.jsx'
-import Section2 from './components/sections/Section2.jsx'
-import Section3 from './components/sections/Section3.jsx'
-import Section4 from './components/sections/Section4.jsx'
-import Section5 from './components/sections/Section5.jsx'
-import Section6 from './components/sections/Section6.jsx'
-import Section7 from './components/sections/Section7.jsx'
-import Section8 from './components/sections/Section8';
+import Header from './components/Header'
+import Footer from './components/Footer'
 import Menu from './components/Menu';
-import  { t } from 'i18next'
+import { t } from 'i18next'
 import { useTranslation } from 'react-i18next'
+import { Route, Routes } from 'react-router-dom'
+import HomePage from './pages/HomePage';
+import KitchensPage from './pages/KitchensPage';
+import DressingPage from './pages/DressingPage';
+import DecorationsPage from './pages/DecorationsPage';
+import ScrollToTopOnPageChange from './components/ScrollToTop';
 
 
 
@@ -21,16 +18,12 @@ import { useTranslation } from 'react-i18next'
 export default function App() {
   const [IsMenuOpen, setIsMenuOpen] = React.useState(false);
   const { i18n } = useTranslation();
-  
+
   useEffect(() => {
     // Check if the URL contains 'ar' or 'en', and set 'ar' as default
-    const urlLanguage = window.location.pathname.includes('/ar')
-      ? 'ar'
-      : window.location.pathname.includes('/en')
-      ? 'en'
-      : 'ar'; // Default to 'ar' if neither is found
-  
-    if (urlLanguage === 'en') {
+    const lang = localStorage.getItem('language');
+
+    if (lang == 'en') {
       i18n.changeLanguage('en');
       document.body.setAttribute('dir', 'ltr');
       localStorage.setItem('language', 'en');
@@ -40,24 +33,24 @@ export default function App() {
       localStorage.setItem('language', 'ar');
     }
   }, []);
-  
-  
+
+
   return (
     <div>
+      <ScrollToTopOnPageChange />
       {/* .site-wrapper */}
       <div className="site-wrapper">
         <Header setIsMenuOpen={setIsMenuOpen} />
         <div className="site-content">
 
-          <Section1 />
-          <Section2 />
-          <Section8 />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path='/kitchens' element={<KitchensPage />} />
+            <Route path='/dressing' element={<DressingPage />} />
+            <Route path='/decorations' element={<DecorationsPage />} />            
 
-          <Section3 />
-          <Section4 />
-          <Section5 />
-          {/* <Section6 /> */}
-          <Section7 />
+            <Route path="*" element={<HomePage />} />
+          </Routes>
 
 
         </div>{/* .site-content */}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export default function Header({ setIsMenuOpen }) {
   const { i18n } = useTranslation();
@@ -27,9 +28,9 @@ export default function Header({ setIsMenuOpen }) {
         <div className="mobile-header__inner mobile-header__inner--flex"  >
             <div className="header-branding header-branding--mobile mobile-header__section text-left">
               <div className="header-logo header-logo--mobile flexbox__item text-left">
-                <a href="#!">
+                <Link to="/">
                   <img src="logo.png" alt="logo" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="mobile-header__section text-right">

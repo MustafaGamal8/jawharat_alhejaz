@@ -40,7 +40,7 @@ export default function Section5() {
                   <img src="images/k9.jpg" alt="Project" />
                 </div>
                 <div className="img-field" data-height={400}>
-                  <img src="images/k11.jpg" alt="Project" />
+                  <img src="images/k4.jpg" alt="Project" />
                 </div>
               </div>
             </div>
