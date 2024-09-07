@@ -1,5 +1,6 @@
 import { t } from 'i18next'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -40,15 +41,15 @@ export default function Footer() {
                 <h4 className="heading-footer">{t('Contact Information')}</h4>
                 <ul className="list-unstyled list-space-sm">
                   <li>
-                    <div className="icon-text">
+                    <div className="icon-text gap-2">
                       <svg width={1024} height={1024} viewBox="0 0 1024 1024"><g><path d="M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z" /></g></svg>
-                      <p>01050677802</p>
+                      <Link to="tel:+2011121278844" dir='ltr'>+2011121278844</Link>
                     </div>
                   </li>
                   <li>
-                    <div className="icon-text">
-                      <svg width={1024} height={1024} viewBox="0 0 1024 1024"><g><path d="M928 128h-832c-52.8 0-96 43.2-96 96v640c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-640c0-52.8-43.2-96-96-96zM398.74 550.372l-270.74 210.892v-501.642l270.74 290.75zM176.38 256h671.24l-335.62 252-335.62-252zM409.288 561.698l102.712 110.302 102.71-110.302 210.554 270.302h-626.528l210.552-270.302zM625.26 550.372l270.74-290.75v501.642l-270.74-210.892z" /></g></svg>
-                      <p> info@guessitt.com</p>
+                    <div className="icon-text gap-2">
+                      <svg width={1024} height={1024} viewBox="0 0 1024 1024"><g><path d="M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z" /></g></svg>
+                      <Link to="tel:+9660564090531" dir='ltr'>+9660564090531</Link>
                     </div>
                   </li>
                 </ul>
