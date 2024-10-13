@@ -14,6 +14,9 @@ export default function DecorationsPage() {
     { src: '/images/decorations/7.jpg', alt: 'Decorations 4' },
     { src: '/images/decorations/8.jpg', alt: 'Decorations 4' },
     { src: '/images/decorations/9.jpg', alt: 'Decorations 4' },
+    { src: '/images/decorations/10.jpg', alt: 'Decorations 4' },
+    { src: '/images/decorations/11.jpg', alt: 'Decorations 4' },
+    { src: '/images/decorations/12.jpg', alt: 'Decorations 4' },
   ];
 
   return (

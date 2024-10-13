@@ -12,6 +12,8 @@ export default function DressingPage() {
     { src: '/images/dressing/2.jpg', alt: 'Dressing 2' },
     { src: '/images/dressing/3.jpg', alt: 'Dressing 3' },
     { src: '/images/dressing/4.jpg', alt: 'Dressing 4' },
+    { src: '/images/dressing/5.jpg', alt: 'Dressing 5' },
+    { src: '/images/dressing/6.jpg', alt: 'Dressing 6' },
   ];
 
   return (

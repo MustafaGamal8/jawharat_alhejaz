@@ -96,7 +96,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="site-footer__section" style={{ display: "flex", flexDirection: "column-reverse", justifyContent: "center", alignItems: "center", gap: "10px" }}>
-            <div className="copy-right text-center">{t('By')} <a href="https://www.facebook.com/guessiteg">Guessit</a> </div>
+            <div className="copy-right text-center">{t('By')} <a href="https://guessitt.com">Guessit</a> </div>
             <div className="copy-right text-center">|</div>
             <div className="copy-right text-center">{t('All Rights Are Reserved')} - Ⓒ {new Date().getFullYear()}  </div>
           </div>

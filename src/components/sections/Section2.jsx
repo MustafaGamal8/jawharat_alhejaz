@@ -24,7 +24,7 @@ export default function Section2() {
             <div className="section-sub flex-box flex-box-2i flex-space-40"  style={{margin:"10px"}}>
               <div className="column-left">
                 <div className={`img-field m-b-30 animate__animated   ${inView ? 'animate__fadeInUp' : ''}`} data-height={390}>
-                  <img src="images/man.jpg" alt="Company Image 1" />
+                  <img src="images/k10.jpg" alt="Company Image 1" />
                 </div>
               </div>
               <div className="column-right">

@@ -17,6 +17,15 @@ const images = [
   {
     src: 'images/media/4.jpg',
   },
+  {
+    src: 'images/media/5.jpg',
+  },
+  {
+    src: 'images/media/6.jpg',
+  },
+  {
+    src: 'images/media/7.jpg',
+  },
 ];
 
 
